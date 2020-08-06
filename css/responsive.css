@@ -1,0 +1,31 @@
+@media screen and (max-width: 576px) {
+    .inputArea {
+        height: 480px;
+    }
+
+    .outputArea {
+        height: 480px;
+    }
+
+    .birthResult {
+        height: 340px;
+    }
+
+    .yearField {
+        top: 20px;
+        left: 0;
+        right: 0;
+    }
+
+    .monthField {
+        top: 130px;
+        left: 0;
+        right: 0;
+    }
+
+    .dayField {
+        top: 240px;
+        left: 0;
+        right: 0;
+    }
+}

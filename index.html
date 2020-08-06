@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Project Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <h1>Age Calculator</h1>
+
+    <!-- START HERE -->
+    <div class="fullArea">
+        <div class="inputArea">
+            <h2>fill the input field</h2>
+            <div class="birthInfo">
+                <label for="day">
+                    Date Of Birth(DAY)
+                </label>
+                <br>
+                <input type="text" id="day">
+                <br><br>
+                <label for="month">
+                    Date Of Birth(MONTH)
+                </label>
+                <br>
+                <input type="text" id="month">
+                <br><br>
+                <label for="year">
+                    Date Of Birth(YEAR)
+                </label>
+                <br>
+                <input type="text" id="year">
+                <br><br>
+                <button type="button" onclick="myFunction()">
+                    Generate
+                </button>
+            </div>
+        </div>
+        <div class="outputArea">
+            <h2>here your result</h2>
+            <div class="birthResult" id="displayFunction">
+                <div class="yearField">
+                    <span id="hereYouryear"></span>
+                    <p>YEAR</p>
+                </div>
+                <div class="monthField">
+                    <span id="hereYourmonth"></span>
+                    <p>MONTH</p>
+                </div>
+                <div class="dayField">
+                    <span id="hereYourday"></span>
+                    <p>DAY</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
